@@ -1,0 +1,44 @@
+{
+  "name": "vue-admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "vite --mode development",
+    "dev": "vite --mode development",
+    "test": "vite --mode test",
+    "build": "vite --mode production",
+    "format": "prettier --write src/**/*.vue"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^1.4.0",
+    "element-plus": "^2.2.28",
+    "loadsh": "^0.0.4",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "reset-css": "^5.0.2",
+    "utilsdzt": "^1.0.2",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2",
+    "whatwg-fetch": "^3.6.17",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.16",
+    "mockjs": "^1.1.0",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.1",
+    "sass": "^1.63.6",
+    "tailwindcss": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.3.9",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-mock": "^2.9.6"
+  }
+}
