@@ -1,26 +1,11 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-
+import Vue from "vue"
+import VueRouter from "vue-router"
 Vue.use(VueRouter);
-
-const routes = [
-  {
-    path: "/",
-    name: "home",
-    component: () => {
-      import("../views/HomeView.vue")
-    }
-  },
-  {
-    path: "/about",
-    name: "about",
-    component: () =>
-      import("../views/AboutView.vue"),
-  },
-];
+import basic from './basic'
+import routes from './async'
 
 const router = new VueRouter({
-  routes,
+  routes: [...basic, ...routes]
 });
 
 export default router;
